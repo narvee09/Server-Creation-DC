@@ -1,8 +1,8 @@
 # Server-Creation-DC
 
--video tut placeholder
+<!---video tut placeholder--->
 
-<h2>System requirments</h2>
+<h2>Requirments</h2>
 <!---input download instructions--->
 
 -  <b><a href="https://www.virtualbox.org/wiki/Downloads">Virtual Box</a></b>
