@@ -4,29 +4,31 @@
 
 <h2>System requirments</h2>
 <!---input download instructions--->
+<b><a href="https://www.virtualbox.org/wiki/Downloads">Virtual Box</a></b>
+<b><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows Server</a></b>
 
 <h1>Create new Virutal Machine</h1>
 This will be the domain controller. Internet NIC and internal NIC
-- img placeholder
+- img placeholder (dc 1, dc2)
 
 <h3>Create network adapter (internal NIC)</h3>
--img placeholder
+-img placeholder 
 
 Open settings > network > 
   - adapeter 1 will have no changes, this is the "home" network
-  - adapter 2 > enable network adapter > set internal network
+  - adapter 2 > enable network adapter > set internal network (dc3,dc4)
 
 <h3>Input ISO img:</h3>
--img placeholder
+-img placeholder (dc5)
 
 - Select VM > Start > DVD > Select windows server iso >mount and retry boot
 
 
 <h1>Windows Server Setup:</h1>
-  - img Placeholder
+  - img Placeholder (dc6)
 
-  - <b>Choose "standard evaluation (desktop experience)"
-  - <b>Choose custom installation</b>
+  - <b>Choose "standard evaluation (desktop experience)"(dc7)
+  - <b>Choose custom installation</b>(dc8,9 and 10 optional)
   - <b>Create admin credentials</b>
 
 <h3>Setup internal network ip addressing and configuration:</h3>
