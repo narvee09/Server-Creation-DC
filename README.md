@@ -4,8 +4,9 @@
 
 <h2>System requirments</h2>
 <!---input download instructions--->
-<b><a href="https://www.virtualbox.org/wiki/Downloads">Virtual Box</a></b>
-<b><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows Server</a></b>
+
+-  <b><a href="https://www.virtualbox.org/wiki/Downloads">Virtual Box</a></b>
+-  <b><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows Server</a></b>
 
 <h1>Create new Virutal Machine</h1>
 This will be the domain controller. Internet NIC and internal NIC
