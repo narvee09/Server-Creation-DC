@@ -29,17 +29,18 @@ Open settings > network >
   - img Placeholder (dc6)
 
   - <b>Choose "standard evaluation (desktop experience)"(dc7)
-  - <b>Choose custom installation</b>(dc8,9 and 10 optional)
-  - <b>Create admin credentials</b>
+  - <b>Choose custom installation</b>(dc8,"9 and 10 optional")  virtual machine will restart.
+  - <b>Create admin credentials</b> (dc11)
+  - <b> When using virtual box click here to "input" crtl+alt+del </b>(dc12)
 
 <h3>Setup internal network ip addressing and configuration:</h3>
- - <b>Open Network & Internext settings > Ethernet > Change adapter options</b>
+ - <b>Open Network & Internext settings > Ethernet > Change adapter options</b>(dc13,dc14)
 
 - To find out wich adapter is internal network, right click on either option > status > details
-- img placeholder
+- img placeholder(dc15,dc16)
 - The option with IP:starting with "169.254.ect.ect is what will be used to set internal network
-- Right click on internal network > properties
--   - Double click on TCP/IPv4
+- Right click on internal network > properties(dc17)
+-   - Double click on TCP/IPv4(dc18)
     - IP address: 172.16.0.1
     - Subnetmask: 255.255.255.0
     - Preferred DNS server: 127.0.0.1 (loop back address)
@@ -52,19 +53,19 @@ Open settings > network >
 - add roles and features
     -  installation type:role-based installation
     -  Server Selection: Your server from the pool of options
-    -  Server Roles: select "Active directory Domain Services" > add features > next
+    -  Server Roles: select "Active directory Domain Services" > add features > next(dc19,dc20)
     - Features: (defualt selection) 
     - AD DS: (default selection)
-    -Confirm and install
+    -Confirm and install (dc21)
 
 <h3>Domain Creation</h3>
 -img placeholder for server manager dashboard (roles and features can use same img)(use flag icon)
--  Post-deplyment Configuration: Promter this server to a domain  ontroller
--  Deployment Configuration: add a new forest 
+-  Post-deplyment Configuration: Promote this server to a domain  ontroller
+-  Deployment Configuration: add a new forest (dc22)
 -  -  Root domain Name: input "yourdomain.com"
 -  Domain Controller Options: Create password
--  DNS Options: uncheck "create DNS delegation
--  additional options,Paths,Review options,prerequisites check > install
+-  DNS Options: uncheck "create DNS delegation(optional dc 23)
+-  additional options,Paths,Review options,prerequisites check > install > the server will restart
 
 <h3>Dedicated domain admin account creation</h3>
 -img place holder V
