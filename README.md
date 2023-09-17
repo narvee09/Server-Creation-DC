@@ -115,3 +115,5 @@ Confirm domain admin is working by signing out of administrator and log back in 
 -  Select next for Domain Name and DNS Servers, WINS Servers and Activate Scope
 -  Right click on domain > refresh > authorize > refresh                                                           (dc55 - dc57)
 
+
+-img placeholder(show DCT hosting virtual client using internal network)
