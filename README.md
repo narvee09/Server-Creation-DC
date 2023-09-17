@@ -95,7 +95,7 @@ Confirm domain admin is working by signing out of administrator and log back in 
 -  img placeholder (routing and remote access window)
 -  right click on computer name > configure and enable routing and remote access                                  (dc35)
 -  img placeholder (setip wizard for each view, place inline as array, images will speak for instructions)        (dc36 - dc40)
-
+<!--[the option that is connected to the internet, find out proper name for this]--->
 
 <h3>DHCP Server Setup</h3>
 -img placeholder                                                                                                  (server dashboard)
