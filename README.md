@@ -49,7 +49,7 @@ Open settings > network >
 
 
 <h3>Active directory installation</h3>
--img placeholder for server manager dashboard (roles and features can use same img)
+-img placeholder for server manager dashboard                                                                     (roles and features can use same img)
 - add roles and features
     -  installation type:role-based installation
     -  Server Selection: Your server from the pool of options
@@ -59,7 +59,7 @@ Open settings > network >
     -Confirm and install                                                                                           (dc21)
 
 <h3>Domain Creation</h3>
--img placeholder for server manager dashboard (roles and features can use same img)(use flag icon)
+-img placeholder for server manager dashboard                                                                     (roles and features can use same img)(use flag icon)
 -  Post-deplyment Configuration: Promote this server to a domain  controller
 -  Deployment Configuration: add a new forest                                                                       (dc22)
 -  -  Root domain Name: input "yourdomain.com"
@@ -71,7 +71,7 @@ Open settings > network >
 -img place holder V                                                                                                  (dc24)
 - Click on start > windows administrative tools > active directory users and computers 
 
-img place holder (for active directory window)
+img place holder                                                                                                   (for active directory window)
 -right click on domain > new > organizational unit > rename to Admin                                                (dc25,dc26)
 -  -  img placeholder(for OU)
    -  right click on admin OU >new > user                                                                          (dc27)
@@ -98,20 +98,20 @@ Confirm domain admin is working by signing out of administrator and log back in 
 
 
 <h3>DHCP Server Setup</h3>
--img placeholder(server dashboard)
--skip to Server Roles: Select DHCP Server > add features > next
+-img placeholder                                                                                                  (server dashboard)
+-skip to Server Roles: Select DHCP Server > add features > next                                                    (dc41)
 - Select next for features and DHCP Server
 -  Confirmation > install
 
--img placeholder(server dashboard / tools > DHCP)
+-img placeholder                                                                                                  (server dashboard / tools > DHCP)(dc42)
 -img placeholder(DHCP window)
--  expand domain arrow > right click on IPv4 > New Scope
--  img placeholder(Scope setup wizard)
+-  expand domain arrow > right click on IPv4 > New Scope                                                          (dc43)
+-  img placeholder                                                                                                (Scope setup wizard)(dc44 - dc54)
 -  in Scope name input IP range<----------------important detail bold this
 -  img placeholder (Scope setup wizard: IP address range section show with details already listed)
 -  Lease duration (specificy reason for longer or shorter lease)
 -  img placeholder(Configure DHCP Optoins: YES)
 -  img placeholder(Router Default Gateway) text = enter domain contoller IP address
 -  Select next for Domain Name and DNS Servers, WINS Servers and Activate Scope
--  Right click on domain > refresh > authorize > refresh
+-  Right click on domain > refresh > authorize > refresh                                                           (dc55 - dc57)
 
