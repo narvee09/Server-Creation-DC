@@ -12,6 +12,8 @@
 This will be the domain controller. Internet NIC and internal NIC
 - img placeholder                                                                                                           (dc 1, dc2)
 
+
+<img src="https://github.com/narvee09/IT-images/blob/main/DC1.JPG?raw=true" width=600 height=300>
 <h3>Create network adapter (internal NIC)</h3>
 -img placeholder 
 
