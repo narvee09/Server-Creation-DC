@@ -13,7 +13,7 @@ This will be the domain controller. Internet NIC and internal NIC
 - img placeholder                                                                                                           (dc 1, dc2)
 
 
-<img src="https://github.com/narvee09/IT-images/blob/main/DC1.JPG?raw=true" width=600 height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/DC1.JPG?raw=true" height=360>
 
 
 
@@ -26,7 +26,7 @@ Open settings > network >
 
   - adapeter 1 will have no changes, this is the "home" network
 
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG" widnth=600 height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG"  height=600>
 
   - adapter 2 > enable network adapter > set internal network                                                             (dc3,dc4)
 
@@ -52,11 +52,14 @@ Open settings > network >
 
 <h3>Setup internal network ip addressing and configuration:</h3>
  - <b>Open Network & Internext settings > Ethernet > Change adapter options</b>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width=500 height=300>  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" width=500 height=300>(dc13,dc14)
+
+<div >  
+  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="600">  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" width="600">
+</div>(dc13,dc14)
 
 - To find out wich adapter is internal network, right click on either option > status > details
 - img placeholder
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG" width=500 height=300> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG" width=500 height=300>(dc15,dc16)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG" width=500 height=100> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG" width=500 height=100>(dc15,dc16)
 - The option with IP:starting with "169.254.ect.ect is what will be used to set internal network
 - Right click on internal network > properties
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc17.JPG" width=500 height=300>(dc17)
