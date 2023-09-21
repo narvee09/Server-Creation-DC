@@ -44,11 +44,12 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 <br>
 <br>
 
-<h3>Input ISO img:</h3>
--img placeholder                                                                                                     (dc5)
-<div> Select VM > Start > DVD > Select windows server iso >mount and retry boot
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc5.JPG"  height=200 >
+<h4>Input ISO img:</h4>
+<div>
+ Select VM > Start > DVD > Select windows server iso >mount and retry boot
 </div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc5.JPG"  height=200 >
+
 
 <br>
 <br>
@@ -57,8 +58,6 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 <br>
 
 <h1>Windows Server Setup:</h1>
-  - img Placeholder                                                                                                       (dc6)
-
 <div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc6.JPG"  height=400>
 </div>
@@ -66,18 +65,20 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 <br>
 <br>
 
-<div>  choose "standard evaluation (desktop experience)"chose custom installation and create admin credentials
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc7.JPG"  height=400>(dc7)
-                                                                                                           (dc8,"9 and 10 optional")  virtual machine will restart.
-  
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc11.JPG"  height=400>(dc11)
+<div> 
+ Choose "standard evaluation (desktop experience)", custom installation and create admin credentials after doing so the virtual machine will restart.
 </div>
+
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc7.JPG"  height=400>9<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc11.JPG"  height=300>
+
 <br>
 <br>
-<div> When using virtual box click here to input crtl+alt+del
+
+<div>
+ When using virtual box click here to input crtl+alt+del
+</div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc12.JPG"  height=400>
-                                                                                             (dc12)
-</div>
+ </div>
 
 <br>
 <br>
@@ -85,18 +86,24 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 
 <h3>Setup internal network ip addressing and configuration:</h3>
 
- <div>  Open Network & Internext settings > Ethernet > Change adapter options
-  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="500">  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" width="500">
-</div>(dc13,dc14)
-
+ <div>
+ Right click on the Network icon then click open network & Internext settings. Navigate to ethernet and select change adapter options.
+   To find out wich adapter is internal network, right click on either option > status > details
+ </div>
+ <br>
+ <!--- <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="500"> ---> 
+ 
+ <div>
+ <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" height=350>
+ <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG"  height=350>
+ </div>
 <br>
 <br>
 <br>
 
 <div> 
- To find out wich adapter is internal network, right click on either option > status > details
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG"  height=500> 
- The option with IP:starting with "169.254.ect.ect is what will be used to set internal network
+ The option with IP:address begining with "169.254.xx.xx" is what will be used to set internal network, when this is seen it means the DHCP server is not reachable.
+</div>
  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG"  height=500>(dc15,dc16)
 
 <br>
