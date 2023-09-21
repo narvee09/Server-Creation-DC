@@ -38,31 +38,31 @@ Open settings > network >
 
 <h1>Windows Server Setup:</h1>
   - img Placeholder                                                                                                       (dc6)
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc6.JPG"  height=600>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc6.JPG"  height=400>
 
   - <b>Choose "standard evaluation (desktop experience)"
 
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc7.JPG"  height=600>(dc7)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc7.JPG"  height=400>(dc7)
   - <b>Choose custom installation</b>                                                                                (dc8,"9 and 10 optional")  virtual machine will restart.
   - <b>Create admin credentials</b>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc11.JPG"  height=600>(dc11)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc11.JPG"  height=400>(dc11)
 
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc12.JPG"  height=600>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc12.JPG"  height=400>
   - <b> When using virtual box click here to "input" crtl+alt+del </b>                                                  (dc12)
 
 <h3>Setup internal network ip addressing and configuration:</h3>
  - <b>Open Network & Internext settings > Ethernet > Change adapter options</b>
 
 <div >  
-  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="600">  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" width="600">
+  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="500">  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" width="500">
 </div>(dc13,dc14)
 
 - To find out wich adapter is internal network, right click on either option > status > details
 - img placeholder
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG"  height=600> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG"  height=600>(dc15,dc16)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG"  height=500> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG"  height=500>(dc15,dc16)
 - The option with IP:starting with "169.254.ect.ect is what will be used to set internal network
 - Right click on internal network > properties
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc17.JPG"  height=600>(dc17)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc17.JPG"  height=400>(dc17)
 
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc18.JPG"  height=600>
 -   - Double click on TCP/IPv4                                                                                        (dc18)
@@ -81,37 +81,37 @@ Open settings > network >
     -  installation type:role-based installation
     -  Server Selection: Your server from the pool of options
     -  Server Roles: select "Active directory Domain Services" > add features > next
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc19.JPG"  height=600> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc20.JPG"  height=600>(dc19,dc20)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc19.JPG"  height=500> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc20.JPG"  height=400>(dc19,dc20)
     - Features: (defualt selection) 
     - AD DS: (default selection)
     -Confirm and install
-  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc21.JPG"  height=600>(dc21)
+  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc21.JPG"  height=400>(dc21)
 
 <h3>Domain Creation</h3>
 -img placeholder for server manager dashboard
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc%20server%20manager%20flag%20icon%20promot%20this%20server.JPG"  height=600>(roles and features can use same img)(use flag icon)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc%20server%20manager%20flag%20icon%20promot%20this%20server.JPG" width=400 height=400>(roles and features can use same img)(use flag icon)
 -  Post-deplyment Configuration: Promote this server to a domain  controller
 -  Deployment Configuration: add a new forest
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc22.JPG"  height=600>(dc22)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc22.JPG" width=400 height=400>(dc22)
 -  -  Root domain Name: input "yourdomain.com"
 -  Domain Controller Options: Create password
 -  DNS Options: uncheck "create DNS delegation
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc23.JPG"  height=600>(optional dc 23)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc23.JPG" width=400 height=400>(optional dc 23)
 -  additional options,Paths,Review options,prerequisites check > install > the server will restart
 
 <h3>Dedicated domain admin account creation</h3>
 -img place holder V                                                         
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc24.JPG"  height=600>(dc24)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc24.JPG"  height=400>(dc24)
 - Click on start > windows administrative tools > active directory users and computers 
 
 img place holder                                                                                                   (for active directory window)
 -right click on domain > new > organizational unit > rename to Admin
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc25.JPG"  height=600> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc26.JPG"  height=600>(dc25,dc26)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc25.JPG"  height=400> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc26.JPG"  height=500>(dc25,dc26)
 -  -  img placeholder(for OU)
    -  right click on admin OU >new > user
    -  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc27.JPG"  height=600>(dc27)
    -  input details
-   <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc28.JPG"  height=600>(dc28)
+   <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc28.JPG"  height=400>(dc28)
  
    -  Right click on new user > properties > member of > add
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc29.JPG"  height=600>(dc29)
@@ -127,9 +127,9 @@ Confirm domain admin is working by signing out of administrator and log back in 
 -img placeholder(server dashboard)
 - skip to server roles > Remote Access
 -   Select next on Features and Remotes Access <--------- use this verion to write steps
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc32.JPG"  height=600>(dc32)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc32.JPG" width=400 height=400>(dc32)
 -  Role Services > select Routing > add features
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc33.JPG"  height=600>(dc33)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc33.JPG" width=400 height=400>(dc33)
 - Select next on Web Server Role (IIS) and Role Services
 -  Confirmation > install
 
@@ -137,7 +137,7 @@ Confirm domain admin is working by signing out of administrator and log back in 
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc34.JPG"  height=600>(dc34)
 -  img placeholder (routing and remote access window)
 -  right click on computer name > configure and enable routing and remote access
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc35.JPG"  height=600>(dc35)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc35.JPG"  height=400>(dc35)
 -  img placeholder (setip wizard for each view, place inline as array, images will speak for instructions)
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc36.JPG"  height=600> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc40.JPG"  height=600>        (dc36 - dc40)
 <!--[the option that is connected to the internet, find out proper name for this]--->
