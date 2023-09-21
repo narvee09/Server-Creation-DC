@@ -127,9 +127,9 @@ Confirm domain admin is working by signing out of administrator and log back in 
 -img placeholder(server dashboard)
 - skip to server roles > Remote Access
 -   Select next on Features and Remotes Access <--------- use this verion to write steps
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc32.JPG" width=400 height=400>(dc32)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc32.JPG"  height=400>(dc32)
 -  Role Services > select Routing > add features
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc33.JPG" width=400 height=400>(dc33)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc33.JPG"  height=400>(dc33)
 - Select next on Web Server Role (IIS) and Role Services
 -  Confirmation > install
 
@@ -174,9 +174,9 @@ Confirm domain admin is working by signing out of administrator and log back in 
 -  Select next for Domain Name and DNS Servers, WINS Servers and Activate Scope
 -  Right click on domain > refresh > authorize > refresh
 
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc55.JPG" width=500 height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc56.JPG" width=500 height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc57.JPG" width=500 height=300>(dc55 - dc57)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc55.JPG"  height=400>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc56.JPG"  height=400>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc57.JPG"  height=400>(dc55 - dc57)
 
 
 -img placeholder(show DCT hosting virtual client using internal network)
