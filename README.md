@@ -18,17 +18,24 @@ This will be the domain controller. Internet NIC and internal NIC
 
 
 <h3>Create network adapter (internal NIC)</h3>
--img placeholder 
 
-Open settings > network > 
+<div>
+Open settings > network > adapeter 1 will have no changes, this is the "home" network
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG" width=600 h=300>  
+</div>
 
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG" width=600 h=300>
+<pre>
 
-  - adapeter 1 will have no changes, this is the "home" network
 
+  
+</pre>
+  
+<div> - adapter 2 > enable network adapter > set internal network
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG"  height=600>
+                                                          (dc3,dc4)
+</div>
 
-  - adapter 2 > enable network adapter > set internal network                                                             (dc3,dc4)
+
 
 <h3>Input ISO img:</h3>
 -img placeholder                                                                                                     (dc5)
