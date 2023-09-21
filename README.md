@@ -153,17 +153,17 @@ Confirm domain admin is working by signing out of administrator and log back in 
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=400>(server dashboard / tools > DHCP)(dc42)
 -img placeholder(DHCP window)
 -  expand domain arrow > right click on IPv4 > New Scope
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG" width=500 height=300>(dc43)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG" width=500 height=400>(dc43)
 -  img placeholder
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc44.JPG"  height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc44.JPG"  height=300> >>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc45.JPG"  height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc46.JPG"  height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc46.JPG"  height=300> >>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc47.JPG"  height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc48.JPG"  height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc48.JPG"  height=300> >>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc49.JPG"  height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc50.JPG"  height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc50.JPG"  height=300> >>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc51.JPG"  height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc52.JPG"  height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc52.JPG"  height=300> >>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc53.JPG"  height=300>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc54.JPG"  height=300>(Scope setup wizard)(dc44 - dc54)
 -  in Scope name input IP range<----------------important detail bold this
