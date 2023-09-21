@@ -89,7 +89,7 @@ Open settings > network >
 
 <h3>Domain Creation</h3>
 -img placeholder for server manager dashboard
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc%20server%20manager%20flag%20icon%20promot%20this%20server.JPG"  height=400>(roles and features can use same img)(use flag icon)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc%20server%20manager%20flag%20icon%20promot%20this%20server.JPG"  height=500>(roles and features can use same img)(use flag icon)
 -  Post-deplyment Configuration: Promote this server to a domain  controller
 -  Deployment Configuration: add a new forest
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc22.JPG" width=400 height=400>(dc22)
