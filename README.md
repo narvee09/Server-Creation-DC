@@ -24,11 +24,37 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG" width=600 h=300>  
 </div>
 
-<pre>
+
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br /> 
+ <!---markdown spaces refference, spaces only--->
+
+
+
+
+
+
+
+
 
 
   
-</pre>
+
   
 <div> - adapter 2 > enable network adapter > set internal network
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG"  height=600>
