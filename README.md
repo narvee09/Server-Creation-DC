@@ -145,12 +145,12 @@ Confirm domain admin is working by signing out of administrator and log back in 
 <h3>DHCP Server Setup</h3>
 -img placeholder                                                                                                  (server dashboard)
 -skip to Server Roles: Select DHCP Server > add features > next
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc41.JPG"  height=300>(dc41)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc41.JPG"  height=400>(dc41)
 - Select next for features and DHCP Server
 -  Confirmation > install
 
 -img placeholder
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=300>(server dashboard / tools > DHCP)(dc42)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=400>(server dashboard / tools > DHCP)(dc42)
 -img placeholder(DHCP window)
 -  expand domain arrow > right click on IPv4 > New Scope
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG" width=500 height=300>(dc43)
