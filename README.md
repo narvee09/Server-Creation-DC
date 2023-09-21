@@ -32,7 +32,7 @@ Open settings > network >
 
 <h3>Input ISO img:</h3>
 -img placeholder                                                                                                     (dc5)
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc5.JPG" >
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc5.JPG"  height=200 >
 - Select VM > Start > DVD > Select windows server iso >mount and retry boot
 
 
@@ -114,12 +114,12 @@ img place holder                                                                
    <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc28.JPG"  height=400>(dc28)
  
    -  Right click on new user > properties > member of > add
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc29.JPG"  height=600>(dc29)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc29.JPG"  height=500>(dc29)
    -  img placeholder (for select groups image)
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc30.JPG"  height=600>(dc30)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc30.JPG"  height=500>(dc30)
    -  input "domain admins" > click on check names > Click apply then ok.
  
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc31.JPG"  height=600>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc31.JPG"  height=500>
 Confirm domain admin is working by signing out of administrator and log back in with domain admin credentials       (dc31)
 
 
@@ -145,12 +145,12 @@ Confirm domain admin is working by signing out of administrator and log back in 
 <h3>DHCP Server Setup</h3>
 -img placeholder                                                                                                  (server dashboard)
 -skip to Server Roles: Select DHCP Server > add features > next
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc41.JPG" width=500 height=300>(dc41)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc41.JPG"  height=300>(dc41)
 - Select next for features and DHCP Server
 -  Confirmation > install
 
 -img placeholder
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG" width=500 height=300>(server dashboard / tools > DHCP)(dc42)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=300>(server dashboard / tools > DHCP)(dc42)
 -img placeholder(DHCP window)
 -  expand domain arrow > right click on IPv4 > New Scope
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG" width=500 height=300>(dc43)
