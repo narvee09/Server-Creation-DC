@@ -23,37 +23,14 @@ This will be the domain controller. Internet NIC and internal NIC
 Open settings > network > adapeter 1 will have no changes, this is the "home" network
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG" width=600 h=300>  
 </div>
+ 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br /> 
- <!---markdown spaces refference, spaces only--->
-
-
-
-
-
-
-
-
-
-
-  
+ <!---markdown spaces refference, each <br> is space format--->
 
   
 <div> - adapter 2 > enable network adapter > set internal network
@@ -61,42 +38,72 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
                                                           (dc3,dc4)
 </div>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h3>Input ISO img:</h3>
 -img placeholder                                                                                                     (dc5)
+<div> Select VM > Start > DVD > Select windows server iso >mount and retry boot
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc5.JPG"  height=200 >
-- Select VM > Start > DVD > Select windows server iso >mount and retry boot
+</div>
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h1>Windows Server Setup:</h1>
   - img Placeholder                                                                                                       (dc6)
+
+<div>Choose "standard evaluation (desktop experience)"
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc6.JPG"  height=400>
+</div>
 
-  - <b>Choose "standard evaluation (desktop experience)"
-
+<div> chose custom installation and create admin credentials
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc7.JPG"  height=400>(dc7)
-  - <b>Choose custom installation</b>                                                                                (dc8,"9 and 10 optional")  virtual machine will restart.
-  - <b>Create admin credentials</b>
+                                                                                                           (dc8,"9 and 10 optional")  virtual machine will restart.
+  
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc11.JPG"  height=400>(dc11)
+</div>
 
+<div> When using virtual box click here to input crtl+alt+del
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc12.JPG"  height=400>
-  - <b> When using virtual box click here to "input" crtl+alt+del </b>                                                  (dc12)
+                                                                                             (dc12)
+</div>
+
+<br>
+<br>
+<br>
 
 <h3>Setup internal network ip addressing and configuration:</h3>
- - <b>Open Network & Internext settings > Ethernet > Change adapter options</b>
 
-<div >  
+ <div>  Open Network & Internext settings > Ethernet > Change adapter options
   <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="500">  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" width="500">
 </div>(dc13,dc14)
 
-- To find out wich adapter is internal network, right click on either option > status > details
-- img placeholder
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG"  height=500> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG"  height=500>(dc15,dc16)
-- The option with IP:starting with "169.254.ect.ect is what will be used to set internal network
-- Right click on internal network > properties
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc17.JPG"  height=400>(dc17)
+<br>
+<br>
+<br>
 
+<div To find out wich adapter is internal network, right click on either option > status > details
+
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG"  height=500> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG"  height=500>(dc15,dc16)
+
+<br>
+<br>
+<br>
+
+<div>
+The option with IP:starting with "169.254.ect.ect is what will be used to set internal network
+Right click on internal network > properties
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc17.JPG"  height=400>(dc17)
+</div>
+
+<div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc18.JPG"  height=600>
 -   - Double click on TCP/IPv4                                                                                        (dc18)
     - IP address: 172.16.0.1
@@ -104,10 +111,15 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
     - Preferred DNS server: 127.0.0.1 (loop back address)
  
 - Rename PC
+</dvi>
 
+<br>
+<br>
+<br>
 
 <h3>Active directory installation</h3>
--img placeholder for server manager dashboard
+<div>
+ server manager dashboard
 
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc server manager add roles and features.JPG"  height=600>(roles and features can use same img)
 - add roles and features
@@ -118,19 +130,36 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
     - Features: (defualt selection) 
     - AD DS: (default selection)
     -Confirm and install
+</div>
+
+<br>
+<br>
+<br>
+
+
   <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc21.JPG"  height=400>(dc21)
+
+<br>
+<br>
+<br>
 
 <h3>Domain Creation</h3>
 -img placeholder for server manager dashboard
+<div> 
+ Post-deployment Configuration: protoe this server to a domain controller
+ 
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc%20server%20manager%20flag%20icon%20promot%20this%20server.JPG"  height=500>(roles and features can use same img)(use flag icon)
--  Post-deplyment Configuration: Promote this server to a domain  controller
--  Deployment Configuration: add a new forest
+THen click on Deployment Configuration: add a new forest
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc22.JPG" width=400 height=400>(dc22)
 -  -  Root domain Name: input "yourdomain.com"
 -  Domain Controller Options: Create password
 -  DNS Options: uncheck "create DNS delegation
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc23.JPG" width=400 height=400>(optional dc 23)
 -  additional options,Paths,Review options,prerequisites check > install > the server will restart
+
+<br>
+<br>
+<br>
 
 <h3>Dedicated domain admin account creation</h3>
 -img place holder V                                                         
