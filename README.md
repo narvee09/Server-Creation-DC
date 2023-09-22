@@ -88,7 +88,7 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 
  <div>
  Right click on the Network icon then click open network & Internext settings. Navigate to ethernet and select change adapter options.
-   To find out wich adapter is internal network, right click on either option > status > details
+   To find out wich adapter will be used as the internal network, right click on either option > status > details
  </div>
  <br>
  <!--- <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="500"> ---> 
@@ -104,25 +104,19 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 <div> 
  The option with IP:address begining with "169.254.xx.xx" is what will be used to set internal network, when this is seen it means the DHCP server is not reachable.
 </div>
- <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG"  height=500>(dc15,dc16)
+ <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc16.JPG"  height=500>
 
 <br>
 <br>
 <br>
 
 <div>
-Right click on internal network > properties
+Right click on internal network > properties then couble click on TCP/IPv4, in the preffered DNS server field use 127.0.0.1 as the loop back address
 </div>
- <div>
-  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc17.JPG"  height=400>(dc17)
- </div>
-
 <div>
-  -   - Double click on TCP/IPv4, in the preffered DNS server field use 127.0.0.1 as the look back address
+  <!---img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc17.JPG"  height=400--->
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc18.JPG"  height=600>
-                                                                                                          (dc18)
-- Rename PC
-</dvi>
+</div>
 
 <br>
 <br>
@@ -130,22 +124,21 @@ Right click on internal network > properties
 
 <h3>Active directory installation</h3>
 <div>
- server manager dashboard navigate to add roles and features
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc server manager add roles and features.JPG"  height=600>(roles and features can use same img)
+Navigate to the server manager dashboard then in the add roles and features window. Installation type:role-based installation  Server Selection: choose Your server from the pool of options  Server Roles: select "Active directory Domain Services".
+</div>
+<div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc server manager add roles and features.JPG"  height=350>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc19.JPG"  height=350> 
 </div>
 
-<br>
-
-<div>
- installation type:role-based installation  Server Selection: choose Your server from the pool of options  Server Roles: select "Active directory Domain Services" > add features > next
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc19.JPG"  height=500> 
  <br>
  <br>
+ 
 <div>
- For the features and ADDS screens choose the default selection then confirm and install
+ For the features and AD DS screens choose the default selection then confirm and install.
 </div>
  <div>
- <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc20.JPG"  height=400>8<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc21.JPG"  height=400>(dc21)
+ <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc20.JPG"  height=400><img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc21.JPG"  height=400>
 </div>
  
 <br>
@@ -153,17 +146,18 @@ Right click on internal network > properties
 <br>
 
 <h3>Domain Creation</h3>
--img placeholder for server manager dashboard
 <div> 
- Post-deployment Configuration: protoe this server to a domain controller
- 
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc%20server%20manager%20flag%20icon%20promot%20this%20server.JPG"  height=500>
+ Post-deployment Configuration: protoe this server to a domain controller then click on Deployment Configuration.
 </div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc%20server%20manager%20flag%20icon%20promot%20this%20server.JPG"  height=450>
+
+<br>
+<br>
 
 <div>
-THen click on Deployment Configuration: add a new forest Root domain Name: input "yourdomain.com"-  Domain Controller Options: Create password  DNS Options: uncheck "create DNS delegation additional options,Paths,Review options,prerequisites check > install > the server will restart 
+Add a new forest Root domain Name: input "yourdomain.com". Domain Controller Options: Create password  DNS Options: uncheck "create DNS delegation additional options,Paths,Review options,prerequisites check > install > the server will restart 
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc22.JPG" width=400 height=400>9<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc23.JPG" width=400 height=400>(optional dc 23)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc22.JPG" height=400><img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc23.JPG" height=400>
 
 
 <br>
@@ -171,36 +165,48 @@ THen click on Deployment Configuration: add a new forest Root domain Name: input
 <br>
 
 <h3>Dedicated domain admin account creation</h3>
-
 <div> 
  - Click on start > windows administrative tools > active directory users and computers 
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc24.JPG"  height=400>(dc24)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc24.JPG"  height=500>
 
-
- <div>                                                                                                (for active directory window)
--right click on domain > new > organizational unit > rename to Admin
- </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc25.JPG"  height=400> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc26.JPG"  height=500>(dc25,dc26)
-
-<div>
-right click on admin OU >new > user and input details
-</div>
-   -  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc27.JPG"  height=600>8<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc28.JPG"  height=400>(dc28)
+<br>
+<br>
 
  <div>
+Right click on domain and create a new  organizational unit and rename it to Admin
+ </div>
+ <div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc25.JPG"  height=100>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc26.JPG"  height=100>
+</div>
+
+<br>
+<br>
+
+<h3>Add user to group</h3>
+<div>
+right click on admin OU and create a new user and input details
+</div>
+<div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc27.JPG"  height=400>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc28.JPG"  height=200>
+</div>
+
+<div>
 Right click on new user > properties > member of > add
+  Input "domain admins" > click on check names > Click apply then ok.
  </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc29.JPG"  height=500>(dc29)
+ <div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc29.JPG"  height=350>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc30.JPG"  height=350>  
+ </div>
 
-
-<div>
- input "domain admins" > click on check names > Click apply then ok.
-</div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc30.JPG"  height=500>(dc30)
+<br>
+<br>
 
  <div>
-  Confirm domain admin is working by signing out of administrator and log back in with domain admin credentials       (dc31)
+  Confirm domain admin is working by signing out of administrator and log back in with domain admin credentials.
  </div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc31.JPG"  height=500>
 
@@ -208,46 +214,51 @@ Right click on new user > properties > member of > add
 <br>
 
 <h3>Remote Access Server / Network Address Translation Installation</h3>
--img placeholder(server dashboard)
 <div>
-- skip to server roles > Remote Access
--   Select next on Features and Remotes Access <--------- use this verion to write steps
+ Navigate to server manager dashboard and follow the prompts to the server roles section and select remote access select next on Features and Remotes Access 
  </div>
 
  <div>
    Role Services > select Routing > add features. Select next on Web Server Role (IIS) and Role Services Confirmation then install
  </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc32.JPG"  height=400>8<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc33.JPG"  height=400>(dc33)
+ <div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc32.JPG"  height=400>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc33.JPG"  height=400>
+</div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc34.JPG"  height=600>
 
+<br>
+<br>
 
--img placeholder(server dashboard/ highlight tools then routing and remote access)
-
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc34.JPG"  height=600>(dc34)
--  img placeholder (routing and remote access window)
-  <div>
+<div>
   Right click on computer name > configure and enable routing and remote access
-  </div> 
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc35.JPG"  height=400>(<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc36.JPG"  height=600> <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc40.JPG"  height=600>        (dc36 - dc40)
+</div> 
+
+<div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc35.JPG"  height=500>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc36.JPG"  height=400>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc40.JPG"  height=300>
+</div>
 <!--[the option that is connected to the internet, find out proper name for this]--->
 
 <h3>DHCP Server Setup</h3>
-<div>                                                                                                (server dashboard)
--skip to Server Roles: Select DHCP Server > add features > next Select next for features and DHCP Server Confirmation > install
+<div>
+skip to Server Roles: Select DHCP Server > add features > next Select next for features and DHCP Server Confirmation > install
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc41.JPG"  height=400>(dc41)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc41.JPG"  height=400>
 
 
--img placeholder
+
 <div>
  Navigate to tools then DHCP
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=400>(server dashboard / tools > DHCP)(dc42)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=400>
 
 <div>
--  expand domain arrow > right click on IPv4 > New Scope
+expand domain arrow > right click on IPv4 > New Scope
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG" width=500 height=400>(dc43)
--  img placeholder
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG" width=500 height=400>
+
 
 <br>
 <br>
