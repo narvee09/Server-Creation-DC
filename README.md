@@ -236,6 +236,7 @@ Right click on new user > properties > member of > add
 
 <div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc35.JPG"  height=500>
+ <br>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc36.JPG"  height=400>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc40.JPG"  height=300>
 </div>
@@ -243,28 +244,25 @@ Right click on new user > properties > member of > add
 
 <h3>DHCP Server Setup</h3>
 <div>
-skip to Server Roles: Select DHCP Server > add features > next Select next for features and DHCP Server Confirmation > install
+Navigate to server dashboard once more and click on add roles and features follow the prompts and  select DHCP Server, add features, next for features and DHCP Server Confirmation then install.
 </div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc41.JPG"  height=400>
 
 
 
 <div>
- Navigate to tools then DHCP
+ Navigate to tools then DHCP 
+ expand domain arrow > right click on IPv4 > New Scope
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=400>
-
-<div>
-expand domain arrow > right click on IPv4 > New Scope
+<div
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc42.JPG"  height=350>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG"  height=350>
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc43.JPG" width=500 height=400>
-
 
 <br>
-<br>
-<br>
-<br>
 
+<br>
+<h4>Scope Configuration</h4>
 <div>
  -  in Scope name input IP range<----------------important detail bold this img placeholder (Scope setup wizard: IP address range section show with details already listed) Lease duration (specificy reason for longer or shorter lease)
 
@@ -273,6 +271,7 @@ expand domain arrow > right click on IPv4 > New Scope
 
  Select next for Domain Name and DNS Servers, WINS Servers and Activate Scope Right click on domain > refresh > authorize > refresh
 </div>
+<div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc44.JPG"  height=300> >>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc45.JPG"  height=300>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc46.JPG"  height=300> >>
@@ -283,13 +282,17 @@ expand domain arrow > right click on IPv4 > New Scope
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc51.JPG"  height=300>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc52.JPG"  height=300> >>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc53.JPG"  height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc54.JPG"  height=300>(Scope setup wizard)(dc44 - dc54)
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc54.JPG"  height=300>
+</div>
 
 <br>
+<br>
 
+<h4>Refresh and authorize IPv4 configuration</h4>
+<div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc55.JPG"  height=400>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc56.JPG"  height=400>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc57.JPG"  height=400>(dc55 - dc57)
-
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc57.JPG"  height=400>
+</div>
 
 -img placeholder(show DCT hosting virtual client using internal network)
