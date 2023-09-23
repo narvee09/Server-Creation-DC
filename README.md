@@ -35,8 +35,8 @@ adapter 2 will be represent the private internal network. Click on adapter 2 the
 </div>
 <br>
 <div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG"  height=300>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc4.JPG"  height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG"  width=500>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc4.JPG"  width=500>
 </div>
  
 <br>
