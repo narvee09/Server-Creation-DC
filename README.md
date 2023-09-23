@@ -17,10 +17,6 @@
 <h1>Create new Virutal Machine</h1>
 <br>
 <div>
-<a href="https://github.com/narvee09/Client-Creation-VM-">Virtual Machine creation tutorial</a>
-</div>
-<br>
-<div>
 <img src="https://github.com/narvee09/IT-images/blob/main/DC1.JPG?raw=true" height=360>
 </div>
 
