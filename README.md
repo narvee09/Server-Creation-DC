@@ -25,7 +25,6 @@
 </div>
 
 <br>
-<br>
 
 <h3>Create network adapter (internal NIC)</h3>
 
@@ -40,8 +39,6 @@ adapter 2 will be represent the private internal network. Click on adapter 2 the
 </div>
  
 <br>
-<br>
-
  <!---markdown spaces refference, each <br> is space format--->
 
 <h4>Input ISO img:</h4>
