@@ -2,6 +2,12 @@
 
 <!---video tut placeholder--->
 
+<h2>Technologies Used</h2>
+
+- <b>Active Directory</b>
+- <b>Windows 10</b>
+- <b>Windows Server 2019</b>
+
 <h2>Requirments</h2>
 <!---input download instructions--->
 
@@ -9,51 +15,44 @@
 -  <b><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows Server</a></b>
 
 <h1>Create new Virutal Machine</h1>
-This will be the domain controller. Internet NIC and internal NIC
-- img placeholder                                                                                                           (dc 1, dc2)
-
-
+<br>
+<div>
+<a href="https://github.com/narvee09/Client-Creation-VM-">Virtual Machine creation tutorial</a>
+</div>
+<br>
+<div>
 <img src="https://github.com/narvee09/IT-images/blob/main/DC1.JPG?raw=true" height=360>
+</div>
 
-
+<br>
+<br>
 
 <h3>Create network adapter (internal NIC)</h3>
 
 <div>
-Open settings > network > adapeter 1 will have no changes, this is the "home" network
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG" width=600 h=300>  
+Open settings then click on  network, adapter 1 will have no changes, this is your "home" network,
+adapter 2 will be represent the private internal network. Click on adapter 2 then enable network adapter and set internal network in the dropdown menu.
+</div>
+<br>
+<div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG"  height=300>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc4.JPG"  height=300>
 </div>
  
-<br>
-<br>
-<br>
 <br>
 <br>
 
  <!---markdown spaces refference, each <br> is space format--->
 
-  
-<div> - adapter 2 > enable network adapter > set internal network
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc3.JPG"  height=600>
-                                                          (dc3,dc4)
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <h4>Input ISO img:</h4>
 <div>
- Select VM > Start > DVD > Select windows server iso >mount and retry boot
+ Select VM select start and an opportunity input windows server iso. Click on mount and retry boot
 </div>
+<br>
+<div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc5.JPG"  height=200 >
+</div>
 
-
-<br>
-<br>
-<br>
 <br>
 <br>
 
@@ -61,41 +60,36 @@ Open settings > network > adapeter 1 will have no changes, this is the "home" ne
 <div>
 <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc6.JPG"  height=400>
 </div>
-
 <br>
-<br>
-
 <div> 
  Choose "standard evaluation (desktop experience)", custom installation and create admin credentials after doing so the virtual machine will restart.
 </div>
-
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc7.JPG"  height=400>9<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc11.JPG"  height=300>
-
 <br>
-<br>
-
 <div>
- When using virtual box click here to input crtl+alt+del
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc7.JPG"  height=400>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc11.JPG"  height=300>
 </div>
-<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc12.JPG"  height=400>
- </div>
-
 <br>
+<div>
+ When using virtual box click here to <i>input</i> "crtl+alt+del"
+</div>
+<img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc12.JPG"  height=500>
+</div>
+
 <br>
 <br>
 
 <h3>Setup internal network ip addressing and configuration:</h3>
 
  <div>
- Right click on the Network icon then click open network & Internext settings. Navigate to ethernet and select change adapter options.
-   To find out wich adapter will be used as the internal network, right click on either option > status > details
+ Right click on the Network icon then click open network & Internet settings. Navigate to ethernet and select change adapter options. To find out which adapter will be used as the internal network, right click on either option, status, details.
  </div>
  <br>
  <!--- <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc13.JPG" width="500"> ---> 
  
  <div>
  <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc14.JPG" height=350>
- <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG"  height=350>
+ <img src="https://github.com/narvee09/IT-images/blob/main/Basic%20IT/DC/dc15.JPG" height=350>
  </div>
 <br>
 <br>
